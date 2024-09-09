@@ -6,10 +6,11 @@ try:
         word = word.strip() # remove newlines and extra spaces from the wordlist.txt
 
         try:
-            res = requests.get(url=f"https://example.com/{word}")
-            print(res) # print response status (e.g. <Response [200]> or <Response [404]>)
-            data = res.json() # parse response to json
-            print(data)
+            res = requests.get(url=f"https://pokeapi.co/api/v2/{word}")
+            if res.status_code == 200:
+                print(res) # print response status (e.g. <Response [200]> or <Response [404]>)
+                data = res.json() # parse response to json
+                print(data)
 
         # catch all request-related errors
         except requests.exceptions.RequestException:
