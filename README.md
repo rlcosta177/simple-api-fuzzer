@@ -1,4 +1,4 @@
-# ToxFuzz - Simple Python API Fuzzer
+# Simple API fuzzer
 
 this is a simple API fuzzer written in Python using the requests and sys libraries.
 
