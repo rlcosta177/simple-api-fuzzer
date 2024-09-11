@@ -16,7 +16,7 @@ this is a simple API fuzzer written in Python using the requests and sys librari
    - pip install requests (for windows systems)
    - apt-get install requests (for debian based systems)
 
-### Linux Installation
+### Linux Installation & Usage
 
 1. Clone the repository to your local machine:
 
@@ -37,7 +37,7 @@ this is a simple API fuzzer written in Python using the requests and sys librari
 
 ---
 
-### Windows Installation
+### Windows Installation & Usage
 
 1. Clone the repository to your local machine using Powershell:
 
